@@ -100,9 +100,5 @@ noButton.addEventListener("click", function () {
   dialogBox.style.display = "none"; // Göm dialogrutan
 });
 
-// Kör funktionen vid sidladdning och när storleken ändras
-window.addEventListener("load", createGrid);
-window.addEventListener("resize", createGrid);
-
 // Starta med att applicera den första färgen
 // setTimeout(applyColorToCellsSequentially, 1000);
